@@ -10,7 +10,8 @@
       "category": "Fiction",
       "tags": ["Dystopian", "Political", "Classic"],
       "publisher": "Penguin Books",
-      "yearOfPublishing": 1949
+      "yearOfPublishing": 1949,
+      "hexColor": "#ffbf00"
     },
     {
       "bookId": 2,
@@ -23,7 +24,8 @@
       "category": "Romance",
       "tags": ["Coming of Age", "Literary Fiction"],
       "publisher": "Little, Brown and Company",
-      "yearOfPublishing": 1951
+      "yearOfPublishing": 1951,
+      "hexColor": "#b56f00"
     },
     {
       "bookId": 3,
@@ -36,7 +38,8 @@
       "category": "Action",
       "tags": ["Romance", "Classic", "Historical Fiction"],
       "publisher": "Charles Scribner's Sons",
-      "yearOfPublishing": 1925
+      "yearOfPublishing": 1925,
+      "hexColor": "#005ced"
     },
     {
       "bookId": 4,
@@ -49,7 +52,8 @@
       "category": "Story",
       "tags": ["Social Issues", "Legal Drama", "Southern Gothic"],
       "publisher": "J.B. Lippincott & Co.",
-      "yearOfPublishing": 1960
+      "yearOfPublishing": 1960,
+      "hexColor": "#48ba00"
     },
     {
       "bookId": 5,
@@ -62,7 +66,8 @@
       "category": "Fantasy",
       "tags": ["Adventure", "High Fantasy"],
       "publisher": "George Allen & Unwin ",
-      "yearOfPublishing": 1937
+      "yearOfPublishing": 1937,
+      "hexColor": "#392404"
     },
     {
       "bookId": 6,
@@ -75,7 +80,8 @@
       "category": "Horror",
       "tags": ["Romance", "Satire", "Classic"],
       "publisher": "T. Egerton, Whitehall",
-      "yearOfPublishing": 1813
+      "yearOfPublishing": 1813,
+      "hexColor": "#4bfffb"
     }
 
 ]
