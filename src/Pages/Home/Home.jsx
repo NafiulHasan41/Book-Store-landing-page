@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import NormalCard from "../../Cards/NormalCard";
+import NormalCard from "../Cards/NormalCard";
 
 const Home = () => {
   

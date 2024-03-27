@@ -6,9 +6,9 @@ import "./index.css";
 import Root from "./Pages/Root/Root";
 import ErrorPage from "./Pages/Error/error";
 import Home from "./Pages/Home/Home";
-import BookList from "./BookList/BookList";
-import PageRead from "./PageRead/PageRead";
-import BigCard from "./Cards/BigCard";
+import BookList from "./Pages/BookList/BookList";
+import PageRead from "./Pages/PageRead/PageRead";
+import BigCard from "./Pages/Cards/BigCard";
 
 
 const router = createBrowserRouter([
@@ -24,10 +24,12 @@ const router = createBrowserRouter([
       {
         path: "/bookList",
         element: <BookList/>,
+        loader: () => fetch('/fakeBook.json')
       },
       {
         path: "/pageRead",
         element: <PageRead/>,
+        loader: () => fetch('/fakeBook.json')
       },
       {
         path: "BigCard/:bookId",
