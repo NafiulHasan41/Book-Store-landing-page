@@ -24,7 +24,7 @@ const BigCard = () => {
                 <p className=" my-3 text-xl font-medium text-gray-500 border-b pb-3 border-black">By : {author} </p>
 
                 <div className="border-b pb-3 border-black text-2xl text-black font-semibold my-3">
-                    {category}
+                   Category : <span className=" text-gray-500">{category}</span> 
                 </div>
                 <div className=" text-gray-400 text-xs font-normal my-3">
                     <span className=" text-xl text-black font-semibold">Review : </span> {review}
