@@ -1,0 +1,81 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "1984",
+      "author": "George Orwell",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxKlKewEeckwYHteK9eYUZxAXZt-2uOJbH5UTphql3hQ&s",
+      "review": "George Orwell's '1984' presents a chilling portrayal of a dystopian society where individualism is suppressed and truth is manipulated by those in power. Through the eyes of protagonist Winston Smith, readers are immersed in a world of constant surveillance, propaganda, and oppression. Orwell's stark warnings about the dangers of totalitarianism, thought control, and the erosion of privacy resonate even more strongly in today's digital age. '1984' remains a timeless masterpiece, a stark reminder of the importance of preserving freedom and resisting authoritarianism.",
+      "totalPages": 328,
+      "rating": 4.5,
+      "category": "Fiction",
+      "tags": ["Dystopian", "Political", "Classic"],
+      "publisher": "Penguin Books",
+      "yearOfPublishing": 1949
+    },
+    {
+      "bookId": 2,
+      "bookName": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJgjyBWxi4gu_WuSq2JRiHZ0DEMy14xlrjVj9n5tRiLA&s",
+      "review": "J.D. Salinger's 'The Catcher in the Rye' is a raw and honest exploration of teenage angst and alienation, capturing the disillusionment of youth in the post-World War II era. Through the eyes of Holden Caulfield, a disenchanted teenager navigating the complexities of adolescence and society, Salinger delves into themes of identity, authenticity, and the search for meaning in a world that often feels phony and superficial. Holden's journey resonates with readers of all ages, reminding us of the universal struggles of growing up and the longing for connection and understanding.",
+      "totalPages": 224,
+      "rating": 4.3,
+      "category": "Romance",
+      "tags": ["Coming of Age", "Literary Fiction"],
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    },
+    {
+      "bookId": 3,
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQM-rPu3PUlMBF4kv4GCl2HSgchyXQZvYzegh7vUUdAA&s",
+      "review": "F. Scott Fitzgerald's 'The Great Gatsby' is a mesmerizing tale of love, wealth, and the American Dream, set amidst the extravagance of the Jazz Age. Through the enigmatic figure of Jay Gatsby and the eyes of narrator Nick Carraway, Fitzgerald paints a vivid portrait of a society obsessed with materialism and social status. Beneath the glitz and glamour of the roaring twenties lies a poignant exploration of disillusionment, longing, and the quest for something elusive and unattainable. 'The Great Gatsby' remains a timeless classic, a haunting reflection on the fleeting nature of dreams and the emptiness of wealth without love.",
+      "totalPages": 180,
+      "rating": 4.7,
+      "category": "Action",
+      "tags": ["Romance", "Classic", "Historical Fiction"],
+      "publisher": "Charles Scribner's Sons",
+      "yearOfPublishing": 1925
+    },
+    {
+      "bookId": 4,
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://images.blinkist.io/images/books/63fc4bfa0ec20100080b21fb/1_1/470.jpg",
+      "review": "Harper Lee's 'To Kill a Mockingbird' is a powerful narrative addressing racial injustice and moral growth, seen through the eyes of a young girl in the South. Set against the backdrop of the Great Depression, the novel follows Scout Finch as she navigates the complexities of race, class, and morality in her small Alabama town. Through the iconic character of Atticus Finch and his defense of an innocent black man falsely accused of rape, Lee challenges readers to confront the deep-rooted prejudices and systemic injustices that continue to plague society. 'To Kill a Mockingbird' remains a timeless classic, a testament to the enduring power of empathy, courage, and the fight for justice.",
+      "totalPages": 336,
+      "rating": 4.8,
+      "category": "Story",
+      "tags": ["Social Issues", "Legal Drama", "Southern Gothic"],
+      "publisher": "J.B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "bookId": 5,
+      "bookName": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "image": "https://thumbs.dreamstime.com/b/hobbit-book-vintage-paperback-edition-written-j-r-tolkien-published-unwin-books-has-become-classic-childrens-142431128.jpg",
+      "review": "J.R.R. Tolkien's 'The Hobbit' is an enchanting adventure that introduces readers to the magical world of Middle-earth, filled with dwarves, dragons, and wizards. Bilbo Baggins, a reluctant hero, embarks on a quest to reclaim a lost kingdom and treasure guarded by the fearsome dragon Smaug. Along the way, he encounters trolls, elves, and a mysterious creature named Gollum, testing his courage and resourcefulness. Tolkien's richly imagined universe and timeless themes of heroism, friendship, and the battle between good and evil have captivated readers of all ages for generations. 'The Hobbit' remains a beloved classic, a journey into the heart of fantasy and imagination.",
+      "totalPages": 310,
+      "rating": 4.6,
+      "category": "Fantasy",
+      "tags": ["Adventure", "High Fantasy"],
+      "publisher": "George Allen & Unwin",
+      "yearOfPublishing": 1937
+    },
+    {
+      "bookId": 6,
+      "bookName": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "https://i0.wp.com/www.findingsilverpennies.com/wp-content/uploads/2014/02/pride_and_prejudice1.jpg?resize=375%2C600&ssl=1",
+      "review": "Jane Austen's 'Pride and Prejudice' is a witty and romantic novel exploring social class, marriage, and the complexities of human relationships in Georgian England. Through the spirited Elizabeth Bennet and the aloof Mr. Darcy, Austen crafts a tale of misunderstandings, pride, and the transformative power of love. Set against the backdrop of the English countryside, the novel offers a satirical commentary on the expectations and limitations placed on women in the early 19th century. Austen's sharp wit and keen observations of human nature continue to resonate with readers today, making 'Pride and Prejudice' a timeless classic of English literature.",
+      "totalPages": 279,
+      "rating": 4.9,
+      "category": "Horror",
+      "tags": ["Romance", "Satire", "Classic"],
+      "publisher": "T. Egerton, Whitehall",
+      "yearOfPublishing": 1813
+    }
+
+]

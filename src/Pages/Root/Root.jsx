@@ -1,10 +1,14 @@
-import Home from "../Home/Home";
+import { Outlet } from "react-router-dom";
+import Header from "../../Header/Header";
+import Footer from "../../Footer/Footer";
 
 
 const Root = () => {
     return (
         <div>
-           <Home/>
+            <Header/>
+            <Outlet/>
+            <Footer/>
         </div>
     );
 };

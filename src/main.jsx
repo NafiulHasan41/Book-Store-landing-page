@@ -6,6 +6,9 @@ import "./index.css";
 import Root from "./Pages/Root/Root";
 import ErrorPage from "./Pages/Error/error";
 import Home from "./Pages/Home/Home";
+import BookList from "./BookList/BookList";
+import PageRead from "./PageRead/PageRead";
+import BigCard from "./Cards/BigCard";
 
 
 const router = createBrowserRouter([
@@ -17,6 +20,19 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home/>,
+      },
+      {
+        path: "/bookList",
+        element: <BookList/>,
+      },
+      {
+        path: "/pageRead",
+        element: <PageRead/>,
+      },
+      {
+        path: "BigCard/:bookId",
+        element: <BigCard/>,
+        loader: () => fetch('/fakeBook.json')
       },
     ],
   },
