@@ -50,7 +50,7 @@ const BookList = () => {
             Sort By
           </option>
           <option>Han Solo</option>
-          <option>Greedo</option>
+          <option>Rating</option>
         </select>
       </div>
       {/* tab section  */}
