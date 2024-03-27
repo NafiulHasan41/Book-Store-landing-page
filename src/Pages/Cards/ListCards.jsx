@@ -2,9 +2,11 @@ import PropTypes from "prop-types";
 import { CiLocationOn } from "react-icons/ci";
 import { GoPeople } from "react-icons/go";
 import { MdOutlineContactPage } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const ListCards = ({ book }) => {
   const {
+    bookId,
     bookName,
     author,
     image,
@@ -75,9 +77,12 @@ const ListCards = ({ book }) => {
             <p className=" flex-auto text-center items-center bg-[#FFAC3326]/15 rounded-full p-1 px-3  text-xs font-semibold text-[#FFAC33] w-[150px]">
             Rating : {rating}
             </p>
+            <Link to={`../BigCard/${bookId}`}>
             <p className=" flex-auto text-center items-center bg-green-500 rounded-full p-1 px-3  text-xs font-semibold text-white w-[150px]">
             View Details
             </p>
+            </Link>
+         
           </div>
         </div>
       </div>
