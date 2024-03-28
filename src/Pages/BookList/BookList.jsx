@@ -36,6 +36,57 @@ const BookList = () => {
     }
   }, [books]);
 
+
+  const handleBookSorting = value => {
+      
+    if(value === 'rating')
+    {
+       const newArrayWL = [...wishList];
+       newArrayWL.sort((a, b) => a.rating - b.rating);
+       setDisplayWL(newArrayWL);
+
+       const newArrayRB = [...readBooks];
+       newArrayRB.sort((a, b) => a.rating - b.rating);
+       setDisplayRB(newArrayRB);
+
+       
+    }
+    else if( value === 'pages') {
+
+        const newArrayWL = [...wishList];
+       newArrayWL.sort((a, b) => a.totalPages - b.totalPages);
+       setDisplayWL(newArrayWL);
+
+       const newArrayRB = [...readBooks];
+       newArrayRB.sort((a, b) => a.totalPages - b.totalPages);
+       setDisplayRB(newArrayRB);
+
+
+    }
+    else if(value === 'year'){
+        
+        const newArrayWL = [...wishList];
+        newArrayWL.sort((a, b) => a.yearOfPublishing - b.yearOfPublishing);
+        setDisplayWL(newArrayWL);
+ 
+        const newArrayRB = [...readBooks];
+        newArrayRB.sort((a, b) => a.yearOfPublishing - b.yearOfPublishing);
+        setDisplayRB(newArrayRB);
+
+    }
+    else if(value === 'default')
+    {
+        const newArrayWL = [...wishList];
+        setDisplayWL(newArrayWL);
+ 
+        const newArrayRB = [...readBooks];
+        setDisplayRB(newArrayRB);
+    }
+
+  }
+
+  
+
   return (
     <div className="w-[95%] md:w-[82.5%] max-w-[1320px] mx-auto mt-5 md:mt-10  mb-10 md:mb-24  ">
       <div className=" w-full  bg-[#1313130D]/5 rounded-xl ">
@@ -45,12 +96,15 @@ const BookList = () => {
       </div>
 
       <div className=" text-center mt-5">
-        <select className="select select-bordered w-full max-w-[150px] bg-green-500 border-green-500">
+        <select className="select select-bordered w-full max-w-[150px] bg-green-500 border-green-500"
+        onChange={(event) => handleBookSorting(event.target.value)}>
           <option disabled selected>
             Sort By
           </option>
-          <option>Han Solo</option>
-          <option>Rating</option>
+          <option value="default" >Default</option>
+          <option value="rating" >Rating</option>
+          <option value="pages">Number of pages</option>
+          <option value="year">Publisher year</option>
         </select>
       </div>
       {/* tab section  */}
@@ -62,6 +116,7 @@ const BookList = () => {
             role="tab"
             className="tab"
             aria-label="Read Books"
+            checked
           />
           <div
             role="tabpanel"
@@ -80,7 +135,7 @@ const BookList = () => {
             role="tab"
             className="tab"
             aria-label="Wishlist Books"
-            checked
+            
           />
           <div
             role="tabpanel"
