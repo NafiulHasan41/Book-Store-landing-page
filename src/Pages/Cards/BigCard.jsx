@@ -64,7 +64,7 @@ const BigCard = () => {
     else
     {  
         saveWishBook(idInt);
-        toast.success('The Book is Added Wish List !');
+        toast.success('The Book is Added Wish List ! ');
     }
 
     }
